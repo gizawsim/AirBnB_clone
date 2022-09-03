@@ -4,4 +4,4 @@
 
 
  storage = FileStorage()
- storage.reload() storage.reload()
+ storage.reload()
