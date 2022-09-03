@@ -4,7 +4,7 @@
 
 
  class City(BaseModel):
-     """ Class City that inherits BaseModel
+     """ A class City that inherits BaseModel
          Public class attribute
              state_id: (str) - State.id
              name: (str) - City name
