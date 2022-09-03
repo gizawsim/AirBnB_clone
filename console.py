@@ -2,6 +2,7 @@
 """Defines the HBnB console."""
 import cmd
 import re
+
 from shlex import split
 from models import storage
 from models.base_model import BaseModel
@@ -32,9 +33,8 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """Defines the HolbertonBnB command interpreter.
-    Attributes:
-        prompt (str): The command prompt.
+   """The class that implements the console
+    for the AirBnB clone web application
     """
 
     prompt = "(hbnb) "
